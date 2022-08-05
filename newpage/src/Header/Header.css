@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    padding: .3125rem .9375rem .3125rem 1.5625rem;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.siteImage {
+    border-radius: 30%;
+    height: 9.375rem;
+    width: 9.375rem; 
+    align-items: center;
+}
+
+.siteImage img {
+    max-height: 2.375rem;
+    max-width: 9.375rem;
+    background-color: aqua;
+}
+
+.siteName {
+    align-self: center;
+    background-color: blue;
+    flex-grow: 4;
+}
